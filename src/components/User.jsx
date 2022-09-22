@@ -80,7 +80,7 @@ const User = () => {
             <th>Email</th>
             <th>City</th>
             <th>Phone</th>
-            <th>Action</th>
+            {/* <th>Action</th> */}
           </tr>
         </thead>
         <tbody>
@@ -93,7 +93,7 @@ const User = () => {
                   <td>{item?.email}</td>
                   <td>{item?.city}</td>
                   <td>{item?.phone}</td>
-                  <td>
+                  {/* <td>
                     <Button color="info" onClick={() => editUser(item.id)}>
                       Edit
                     </Button>
@@ -111,7 +111,7 @@ const User = () => {
                     >
                       Delete
                     </Button>
-                  </td>
+                  </td> */}
                 </tr>
               );
             })
